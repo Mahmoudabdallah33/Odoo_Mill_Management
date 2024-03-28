@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+Mill.access_mill_sources,access_mill_sources,Mill.model_mill_sources,sources_access,1,1,1,1
+Mill.access_customer_products,access_customer_products,Mill.model_customer_products,base.group_user,1,1,1,1
