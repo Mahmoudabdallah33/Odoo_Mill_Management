@@ -1,0 +1,340 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* Mill
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 13:19+0000\n"
+"PO-Revision-Date: 2024-03-28 13:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields.selection,name:Mill.selection__mill_sources__state__cansel
+#: model_terms:ir.ui.view,arch_db:Mill.view_Mill_sources_form
+#: model_terms:ir.ui.view,arch_db:Mill.view_source_tree
+msgid "Cansel"
+msgstr "الغاء"
+
+#. module: Mill
+#: model_terms:ir.actions.act_window,help:Mill.Mill_Sources_action
+msgid "Create a new Source"
+msgstr "انشاء طحين جديد"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__create_uid
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__create_date
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__customer_id
+msgid "Customer"
+msgstr "زبون"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__source_datetime
+msgid "Date"
+msgstr "وقت"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__display_name
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__display_name
+msgid "Display Name"
+msgstr "اﻻسم"
+
+#. module: Mill
+#: model:ir.model.fields.selection,name:Mill.selection__mill_sources__state__done
+#: model_terms:ir.ui.view,arch_db:Mill.view_Mill_sources_form
+#: model_terms:ir.ui.view,arch_db:Mill.view_source_tree
+#: model_terms:ir.ui.view,arch_db:Mill.view_sources_search
+msgid "Done"
+msgstr "تم"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__id
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__id
+msgid "ID"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__message_has_error
+#: model:ir.model.fields,help:Mill.field_mill_sources__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__img
+msgid "Image"
+msgstr "صورة"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products____last_update
+#: model:ir.model.fields,field_description:Mill.field_mill_sources____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__write_uid
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__write_date
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: Mill
+#: model_terms:ir.ui.view,arch_db:Mill.view_Mill_sources_form
+#: model_terms:ir.ui.view,arch_db:Mill.view_source_tree
+msgid "Mark as Cancel"
+msgstr ""
+
+#. module: Mill
+#: model_terms:ir.ui.view,arch_db:Mill.view_Mill_sources_form
+#: model_terms:ir.ui.view,arch_db:Mill.view_source_tree
+msgid "Mark as Done"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: Mill
+#: model:ir.ui.menu,name:Mill.menu_Mill_root
+msgid "Mill"
+msgstr "المطحنه"
+
+#. module: Mill
+#: model:ir.model,name:Mill.model_mill_sources
+msgid "Mill Sources"
+msgstr "اﻻطحنه"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: Mill
+#: model_terms:ir.ui.view,arch_db:Mill.view_Mill_sources_form
+msgid "Name"
+msgstr "اﻻسم"
+
+#. module: Mill
+#: model:ir.model.fields.selection,name:Mill.selection__mill_sources__state__new
+#: model_terms:ir.ui.view,arch_db:Mill.view_sources_search
+msgid "New"
+msgstr "جديد"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model,name:Mill.model_customer_products
+msgid "Owen Product of the Customer"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__price
+msgid "Price"
+msgstr "السعر"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__product_id
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__customer_prod_ids
+#: model_terms:ir.ui.view,arch_db:Mill.view_Mill_sources_form
+msgid "Product"
+msgstr "اﻻطحنه"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__weight
+msgid "Product Weight"
+msgstr "الوزن"
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: Mill
+#: model:ir.actions.act_window,name:Mill.Mill_Sources_action
+msgid "Source Action"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__ref
+msgid "Source Reference"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_customer_products__source_id
+#: model:ir.ui.menu,name:Mill.menu_Source_first
+#: model:ir.ui.menu,name:Mill.menu_Source_root
+msgid "Sources"
+msgstr "اﻻطحنه"
+
+#. module: Mill
+#: model:res.groups,name:Mill.sources_access
+msgid "Sources Access"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__state
+msgid "State"
+msgstr "الحاله"
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,field_description:Mill.field_mill_sources__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: Mill
+#: model:ir.model.fields,help:Mill.field_mill_sources__website_message_ids
+msgid "Website communication history"
+msgstr ""
