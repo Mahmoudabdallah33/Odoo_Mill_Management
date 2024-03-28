@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem
+                id="menu_Mill_root"
+                name="Mill"
+                sequence="0"/>
+        <menuitem
+                id="menu_Source_root"
+                parent="menu_Mill_root"
+                name="Sources"
+                sequence="1"/>
+
+    </data>
+</odoo>
