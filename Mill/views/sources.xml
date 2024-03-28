@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_Mill_sources_form" model="ir.ui.view">
+            <field name="name">Mill.Sources.form</field>
+            <field name="model">mill.sources</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="state" widget="statusbar"/>
+
+                        <button name="action_set_Done_state" string="Done"
+                                type="object" class="oe_highlight" data-hotkey="w" title="Mark as Done"
+                                states="New"/>
+                        <button name="action_set_Cancel_state" string="Cancel"
+                                type="object" class="oe_highlight" title="Mark as Cancel"
+                                attrs="{'invisible': [ ('state','=','Done')]}"/>
+
+                    </header>
+                    <sheet>
+                        <field name="img" widget="image" class="oe_avatar"/>
+                        <div class="oe_title">
+                            <h3>
+                                <field name="ref"/>
+                            </h3>
+                            <h1>
+                                <label for="customer_id" string="Name" class="oe_edit_only"/>
+                                <field name="customer_id" />
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+
+                            </group>
+                            <group>
+                                <field name="source_datetime"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Product">
+                                <field name="customer_prod_ids">
+                                    <tree>
+                                        <field name="product_id"/>
+                                        <field name="price"/>
+                                        <field name="weight"/>
+                                    </tree>
+                                    <form>
+                                        <sheet>
+                                            <group>
+                                                <field name="product_id"/>
+                                                <field name="price"/>
+                                                <field name="weight"/>
+                                            </group>
+                                        </sheet>
+                                    </form>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_sources_search" model="ir.ui.view">
+            <field name="name">Mill.sources.search</field>
+            <field name="model">mill.sources</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="customer_id"/>
+                    <field name="state" />
+                    <filter name="state" string="Done" domain="[('state','=', 'Done')]"/>
+                    <filter name="state" string="New" domain="[('state','=', 'New')]"/>
+
+                </search>
+            </field>
+        </record>
+
+        <record id="view_source_tree" model="ir.ui.view">
+            <field name="name">Mill.Sources.tree</field>
+            <field name="model">mill.sources</field>
+            <field name="arch" type="xml">
+                <tree decoration-success="state == 'Done'"  decoration-danger="state == 'Cancel'"
+                      sample="1" multi_edit="1">
+
+                    <field name="customer_id"/>
+                    <field name="source_datetime" optional="show"/>
+                    <field name="state" widget="badge" decoration-success="state == 'Done'"
+                           decoration-danger="state == 'Cancel'" optional="show"/>
+
+
+                    <button name="action_set_Done_state" string="Done"
+                            type="object" class="oe_highlight" title="Mark as Done"
+                            states="New"/>
+                    <button name="action_set_Cancel_state" string="Cancel"
+                            type="object" class="oe_highlight" title="Mark as Cancel"
+                            attrs="{'invisible': [ '|',('state','=','Done'), ('state','=','Cancel')]}"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="Mill_Sources_action" model="ir.actions.act_window">
+            <field name="name">Source Action</field>
+            <field name="res_model">mill.sources</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create a new Source
+                </p>
+            </field>
+        </record>
+
+        <menuitem
+                id="menu_Source_first"
+                parent="menu_Source_root"
+                name="Sources"
+                action="Mill_Sources_action"
+                sequence="0"/>
+
+    </data>
+</odoo>
